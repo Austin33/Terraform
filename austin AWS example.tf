@@ -1,7 +1,7 @@
 provider "aws" {
   access_key = "AKIAIG3LMOU64ZTCV6HA"
   secret_key = "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"
-  region     = "us-east-1a"
+  region     = "us-east-1"
 }
 
 resource "aws_instance" "webserv1" {
@@ -14,6 +14,7 @@ resource "aws_instance" "webserv1" {
               nohup busybox httpd -f -p 8080 &
               EOF
 
+  vpc_security_group_ids = ["${aws_security_group.instance.id}"]
   tags {
     Name = "austins-webserver"
   }

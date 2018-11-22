@@ -37,14 +37,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="austin AWS example" value="1" />
-          <entry key="tf" value="275" />
-          <entry key="txt" value="89" />
+          <entry key="tf" value="317" />
+          <entry key="txt" value="152" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="90" />
-          <entry key="Terraform" value="275" />
+          <entry key="PLAIN_TEXT" value="153" />
+          <entry key="Terraform" value="317" />
         </counts>
       </usages-collector>
     </session>
@@ -73,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/austin AWS example.tf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            <state relative-caret-position="112">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -163,14 +163,21 @@
       <option name="project" value="LOCAL" />
       <updated>1542897928302</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added security group and implimented a script to run on bootup.">
+      <created>1542898550682</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542898550682</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="57" width="582" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36185384" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36185384" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -180,9 +187,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32885906" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.5187166" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.48128343" side_tool="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -221,7 +228,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated terraform file to reflect Ubuntu 16 AMI." />
     <MESSAGE value="Added a tag to the webserver." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a tag to the webserver." />
+    <MESSAGE value="Added security group and implimented a script to run on bootup." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added security group and implimented a script to run on bootup." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -241,8 +249,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/austin AWS example.tf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        <state relative-caret-position="112">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
