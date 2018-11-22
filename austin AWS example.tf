@@ -7,4 +7,8 @@ provider "aws" {
 resource "aws_instance" "webserv1" {
   ami           = "ami-0cf4275f089445589"
   instance_type = "t2.micro"
+
+  tags {
+    Name = "austins-webserver"
+  }
 }  
